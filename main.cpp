@@ -7,7 +7,7 @@ void inputData(float &berat, float &tinggi) {
     cin >> berat;
     cout << "Masukkan tinggi badan (meter): ";
     cin >> tinggi;
-
+}
 
 // Fungsi menghitung BMI
 float hitungBMI(float berat, float tinggi) {
@@ -30,7 +30,7 @@ string statusBMI(float bmi) {
 int main() {
     float berat, tinggi, bmi;
 
-    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+    cout << "--- Selamat Datang Mahasiswa Kelas F 2025 ---" << endl;
 
     // Panggil prosedur input
     inputData(berat, tinggi);
